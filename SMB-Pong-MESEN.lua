@@ -110,7 +110,7 @@ function main()
 	if gamestarted == 0 then
 		emu.drawRectangle(0+20, 208+5, 256-40, 32-10, 0x33000000, true, 1)
 		emu.drawRectangle(1+20, 209+5, 254-40, 30-10, 0x2264b0ff, true, 1)
-		emu.drawString(31, 220, "PONG SMB - A Lua Script by KittiBytes", 0xffffff, 0xFF000000)
+		emu.drawString(31, 220, "SMB PONG - A Lua Script by KittiBytes", 0xffffff, 0xFF000000)
 
 		if input.b then
 			if settings_menu_delay == 0 then
